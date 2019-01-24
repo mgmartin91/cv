@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>Matt Martin Contact</title>
+  <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
@@ -24,7 +26,21 @@
     <a href="contact.html">Contact</a>
   </div>
 
-  <h1 style="text-align:center;">Under Construction</h1>
+  <div class="contForm">
+    <br>
+    <form class="contact">
+      <!-- <label for="fname">First Name</label> -->
+      <input type="text" id="fname" name="firstname" placeholder="First Name">
+      <br>
+      <!--  <label for="lname">Last Name</label> -->
+      <input type="text" id="lname" name="lastname" placeholder="Last Name">
+      <br>
+      <!--  <label for="message">Message</label> -->
+      <textarea type="text" id="message" name="message" placeholder="Your message..."></textarea>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
 </body>
 
 </html>
